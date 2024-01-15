@@ -50,7 +50,7 @@ Date:   Mon Jan 15 08:46:50 2024 +0100
 ```
 * Creación del repositorio en Github:
 ```
-
+![ERROR](img/creacion_repositorio.png)
 ```
 * Añadir el remoto al repositorio local (branch, remote),
 * Subir el repositorio a Github (push) y
