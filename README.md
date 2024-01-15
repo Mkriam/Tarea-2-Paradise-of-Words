@@ -94,14 +94,13 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 
 ## Uso de Git mediante la interfaz de VSCode:
 * Creación de otro commit:
+
 ![ERROR](img/vscommit.png)
 
 * Subir el repositorio a Github:
+
 ![ERROR](img/vsbranch.png)
 
-* Comprobar que está subido a Github:
-
-* Ver el listado de commit desde Github:
-
-
+* Comprobar que está subido a Github y ver el listado de commit desde Github:
+![ERROR](img/lista_commits.png)
 
