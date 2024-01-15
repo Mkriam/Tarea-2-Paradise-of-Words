@@ -90,7 +90,16 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 * Mostrar la página web:
 ![ERROR](img/pagina1.png)
 
-* Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web:
-![ERROR](img)
+* Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
+
+## Uso de Git mediante la interfaz de VSCode:
+* Creación de otro commit:
+
+* Subir el repositorio a Github:
+
+* Comprobar que está subido a Github:
+
+* Ver el listado de commit desde Github:
+
 
 
