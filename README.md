@@ -51,14 +51,18 @@ Date:   Mon Jan 15 08:46:50 2024 +0100
 
 ```
 * Creación del repositorio en Github:
-![ERROR](img/creacion_repositorio.png)
+![ERROR](img/documentacion/creacion_repositorio.png)
 
 *  Añade al usuario del profesor: jmoba
 como colaborador de ese repositorio:
-![ERROR](img/añadir_colaborador.png)
+![ERROR](img/documentacion/añadir_colaborador.png)
 
 * Añadir el remoto al repositorio local (branch, remote):
 ```
+maniana@DAMDAW1-XX MINGW64 ~/Dropbox/LM/Tarea2 (master)
+$ git branch
+* master
+
 maniana@DAMDAW1-XX MINGW64 ~/Dropbox/LM/Tarea2 (master)
 $ git remote add origin https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 ```
@@ -78,29 +82,36 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 
 ```
 * Comprobar que está subido a Github.
-![ERROR](img/comprobacion_repositorio.png)
+
+![ERROR](img/documentacion/comprobacion_repositorio.png)
 
 ## Publicación en Github Pages:
+
 * Configurar el repositorio para que publique el directorio raíz en Github Pages: 
-![ERROR](img/config_pages.png)
+
+![ERROR](img/documentacion/config_pages.png)
 
 * Mostrar los despliegues (deployments):
-![ERROR](img/deployments.png)
+
+![ERROR](img/documentacion/deployments.png)
 
 * Mostrar la página web:
-![ERROR](img/pagina1.png)
+
+![ERROR](img/documentacion/pagina1.png)
 
 * Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
 
 ## Uso de Git mediante la interfaz de VSCode:
+
 * Creación de otro commit:
 
-![ERROR](img/vscommit.png)
+![ERROR](img/documentacion/vscommit.png)
 
 * Subir el repositorio a Github:
 
-![ERROR](img/vsbranch.png)
+![ERROR](img/documentacion/vsbranch.png)
 
 * Comprobar que está subido a Github y ver el listado de commit desde Github:
-![ERROR](img/lista_commits.png)
+
+![ERROR](img/documentacion/lista_commits.png)
 

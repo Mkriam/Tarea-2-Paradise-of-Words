@@ -1,0 +1,20 @@
+#fondo{
+    background-image: url("img/libro_fondo.jpg");
+            background-size: cover;
+            color:white; 
+            padding: 25%;
+            text-align: center;
+            vertical-align:bottom;
+            font-size: 300%;
+            margin: 0;
+}
+h1{
+    
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(221, 221, 221);
+}
