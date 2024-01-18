@@ -106,11 +106,11 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 
 * Creación de otro commit:
 
-
+![ERROR](img/documentacion/commitVS.png)
 
 * Subir el repositorio a Github:
 
-
+![ERROR](img/documentacion/syncVS.png)
 
 * Comprobar que está subido a Github y ver el listado de commit desde Github:
 
