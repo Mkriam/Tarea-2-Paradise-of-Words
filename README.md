@@ -7,6 +7,7 @@
 
 La publicación en GitHub Pagess de esta web está [aquí](https://mkriam.github.io/Tarea-2-Paradise-of-Words/)
 
+
 ## Uso de Git mediante la terminal git bash
 * Creación del repositorio en nuestro ordenador (init):
 ```
@@ -105,11 +106,11 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 
 * Creación de otro commit:
 
-![ERROR](img/documentacion/vscommit.png)
+
 
 * Subir el repositorio a Github:
 
-![ERROR](img/documentacion/vsbranch.png)
+
 
 * Comprobar que está subido a Github y ver el listado de commit desde Github:
 
