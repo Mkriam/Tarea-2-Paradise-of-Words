@@ -26,6 +26,72 @@
             <p>Descripción </p>
             
         </div>
+        <h2 id="informacion">Información</h2>
+        <form>
+            <fieldset>
+                <label for="nombreApellido">Nombre y apellidos:</label>
+                <input type="text" id="nombreApellido" required placeholder="Nombre completo...">
+                <br>
+                <label for="nombreProducto">Producto:</label>
+                <input type="text" id="nombreProducto" required placeholder="Producto...">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Email...">
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" required>
+                <br>
+                <label for="idioma">Idioma:</label>
+                <select id="idioma">
+                    <option value="">Idioma...</option>
+                    <option value="">Español</option>
+                    <option value="">Inglés</option>
+                    <option value="">Francés</option>
+                </select>
+    
+                <br>
+                <label for="">Categorías:</label>
+    
+                <div id="categ">
+
+                <input type="checkbox" id="novelas">
+                <label for="novelas">Novelas</label>
+    
+                <input type="checkbox" id="novela_negra">
+                <label for="novela_negra">Novela negra</label>
+    
+                <br>
+    
+                <label for=""></label>
+                <input type="checkbox" id="historia">
+                <label for="historia">Historia</label>
+    
+                <input type="checkbox" id="romance">
+                <label for="romance">Romance</label>
+    
+                <input type="checkbox" id="fantasia">
+                <label for="fantasia">Fantasía</label>
+
+                <input type="checkbox" id="terror">
+                <label for="Terror">Terror</label>
+
+                <input type="checkbox" id="Novela_corta">
+                <label for="Novela_corta">Novela corta</label>
+
+                <input type="checkbox" id="otros">
+                <label for="otros">Otros</label>
+    
+                <br>
+
+                <label for="observaciones">Preguntas u observaciones:</label>
+                <textarea id="observaciones"></textarea>
+            </div>
+    
+            </fieldset>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
+    
+        </form>
     
 </body>
 </html>
