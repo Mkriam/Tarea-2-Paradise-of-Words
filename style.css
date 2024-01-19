@@ -3,12 +3,12 @@ html {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     height: 100%;
-    background-color: rgb(221, 221, 221);
+    background-color:bisque;
 }
 
 header {
     background-image: url("img/libro_fondo.jpg");
-    color: white;
+    color: lightyellow;
     height: 100%;
     background-size: cover;
 
@@ -29,13 +29,82 @@ header h1 {
     justify-content: space-between;
     padding: 5% 15%;
 }
-
+#fondo{
+    border-bottom: 5px solid black;
+}
 #indice a {
-    color: white;
+    color:lightyellow;
     text-decoration: none;
+    
 }
 #indice a:hover {
     transition: 0.5s;
-    color:aquamarine;
+    color:darksalmon;
     text-decoration: none;
+}
+
+h1{
+    padding: 2%;
+}
+
+/* formulario */
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    background-color:wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3%;
+}
+
+fieldset {
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 65%;
+    margin: 5px 0;
+    border-color: darkgray;
+
+}
+
+select {
+    background-color: lightgrey;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+textarea {
+    height: 100px;
+    vertical-align: top;
+}
+
+button {
+
+    margin-bottom: 30px;
+    align-items: center;
+    width: 30%;
+    height: 30px;
+    margin-left: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:lightblue;
 }
