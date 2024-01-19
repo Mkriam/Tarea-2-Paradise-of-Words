@@ -9,7 +9,7 @@ La publicación en GitHub Pagess de esta web está [aquí](https://mkriam.github
 
 
 ## Uso de Git mediante la terminal git bash
-* Creación del repositorio en nuestro ordenador (init):
+* Creación del repositorio en nuestro ordenador mediante git bash con el comando git init:
 ```
 maniana@DAMDAW1-XX MINGW64 ~/Dropbox/LM/Tarea2
 $ git init
@@ -52,11 +52,14 @@ Date:   Mon Jan 15 08:46:50 2024 +0100
 
 ```
 * Creación del repositorio en Github:
-![ERROR](img/documentacion/creacion_repositorio.png)
 
-*  Añade al usuario del profesor: jmoba
-como colaborador de ese repositorio:
+![ERROR](img/documentacion/creacion_repositorio.png)
+Este repositorio se establece como público para mas adelante poder visualizar correctamente la página web mediante GitHub Pages.
+
+*  Añade al usuario del profesor: *jmoba* como colaborador de ese repositorio:
+
 ![ERROR](img/documentacion/añadir_colaborador.png)
+Mediante el apartado de ajustes de nuestro repositorio en la pestaña colaboradores podemos enviar invitaciones a otros usuarios concediendoles los permisos necesarios para que puedan 
 
 * Añadir el remoto al repositorio local (branch, remote):
 ```
@@ -103,14 +106,19 @@ To https://github.com/Mkriam/Tarea-2-Paradise-of-Words.git
 * Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
 
 ## Uso de Git mediante la interfaz de VSCode:
+Es posible subir archivos a GitHub directamente desde Visual Studio ya que incorpora varias herramientas las cuales hacen posible esta función, no teniendo que utilizar herramientas externas como git bash para ello.
+
+Visual Studio Core nos proporciona dos formas de realizarlo, la primera mediante un terminal incorporado el cual podemos desplegar desde la barra superior o mediante las teclas ctrl+Shift+ñ. Ademas tambien contamos con una interfaz gráfica para la subida de archivos, la cual es la que usaremos en los siguientes ejemplos. Esta herramienta la podremos encontrar con el nombre de Source control en el menú izquierdo de VS.
 
 * Creación de otro commit:
 
 ![ERROR](img/documentacion/commitVS.png)
+Para subir nuevos archivos a un repositorio o actualizar los existentes simplemente se tendrían que añadir los archivos deseados mediante el botón +, añadir un comentario y pressionar el botón de commit.
 
 * Subir el repositorio a Github:
 
 ![ERROR](img/documentacion/syncVS.png)
+Tras añadir los archivos se deben de sincronizar los datos con el repositorio, esto equivaldría el push de git bush.
 
 * Comprobar que está subido a Github y ver el listado de commit desde Github:
 
