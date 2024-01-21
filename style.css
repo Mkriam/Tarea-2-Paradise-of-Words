@@ -3,7 +3,7 @@ html {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     height: 100%;
-    background-color:bisque;
+    background-color: bisque;
 }
 
 header {
@@ -29,23 +29,82 @@ header h1 {
     justify-content: space-between;
     padding: 5% 15%;
 }
-#fondo{
+
+#fondo {
     border-bottom: 5px solid black;
 }
+
 #indice a {
-    color:lightyellow;
+    color: lightyellow;
     text-decoration: none;
-    
+
 }
+
 #indice a:hover {
     transition: 0.5s;
-    color:darksalmon;
+    color: darksalmon;
     text-decoration: none;
 }
 
-h1{
-    padding: 2%;
+.secciones {
+    padding: 0 3%;
+    border-bottom: 10px double brown;
+    margin: 5% 20%;
+    text-align: center;
 }
+
+h3,
+p {
+    margin: 0 2%;
+}
+
+figure {
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    margin: 1% 2%;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+}
+
+/* Tabla */
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+td,
+tr {
+    border: 2px solid black;
+}
+
+
+.grisOscuro {
+    background-color: #555;
+    color: white;
+}
+
+.grisClaro {
+    background-color: #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(230, 205, 174);
+}
+
+.img_tabla {
+    width: 150px;
+}
+
 
 /* formulario */
 
@@ -54,39 +113,36 @@ h1{
 }
 
 form {
-    background-color:wheat;
+    background-color: rgb(230, 205, 174);
     border: 2px solid black;
     border-radius: 10px;
-    margin: 3%;
+    margin: 0 10% 200px 10%;
 }
 
 fieldset {
-    margin: 20px;
-    background-color: white;
+    margin: 2%;
+    background-color: rgb(241, 230, 208);
     border: 1px solid black;
     border-radius: 10px;
 }
 
-
 input[type=text],
+input[type=email],
 select,
 textarea {
     width: 65%;
-    margin: 5px 0;
-    border-color: darkgray;
-
+    margin: 10px 0;
+    border-color: gray;
 }
 
 select {
     background-color: lightgrey;
 }
 
-
-
 label {
     display: inline-block;
-    width: 30%;
-    margin-bottom: 10px;
+    width: 21%;
+    margin: 10px 5px;
     align-items: center;
 }
 
@@ -96,15 +152,17 @@ textarea {
 }
 
 button {
-
     margin-bottom: 30px;
     align-items: center;
     width: 30%;
     height: 30px;
     margin-left: 15%;
     border-radius: 10px;
-    cursor: pointer;
+    font-weight: bold;
 }
-button:hover{
-    background-color:lightblue;
+
+button:hover {
+    background-color: peru;
+    color: white;
+    cursor: pointer;
 }

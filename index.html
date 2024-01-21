@@ -1,38 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise of Words</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="fondo">
-        
-        <h1 >Paradise of Words</h1> 
+
+        <h1>Paradise of Words</h1>
         <div id="indice">
             <a href="#inicio">Inicio</a>
             <a href="#productos">Productos</a>
             <a href="#informacion">Información</a>
-        </div> 
-    </header>
-    
-        <h1 id="inicio">Inicio</h1>
-        <h3>Libros y accesorios para lectores</h3>
-        <p>.....</p>
-
-        <div>
-            <img src="p" alt="Título 1">
-            <p>Descripción </p>
-            
         </div>
+    </header>
 
-        <h1 id="productos">Productos</h1>
+    <h1 id="inicio" class="secciones">Inicio</h1>
+    <h3><b>Libros y accesorios para lectores</b></h3>
+    <br>
+    <p>Este es un espacio cultural que ofrece una variada colección de libros, desde clásicos hasta
+        contemporáneos y una gran cantidad de accesorios imprescidibles para los lectores más apasionados.
+        Cada libro es un tesoro que enriquece mentes y alimenta la imaginación, convirtiendo este pequeño lugar en un
+        faro cultural que inspira y promueve la conexión a través de la literatura.
+        A continuación les mostramos algunos de los productos que ofrecemos:
+    </p>
+    <br>
+
+    <figure>
+        <img src="img/novelas.png" alt="">
+        <figcaption><b>Novelas</b></figcaption>
+        <p>Las novelas son obras literarias extensas que narran historias complejas con personajes y tramas elaboradas,
+            dando la oportunidad de explorar diferentes mundos y reflexionar sobre la
+            diversos temas.</p>
+    </figure>
+    <figure>
+        <img src="img/libros_texto.png" alt="">
+        <figcaption><b>Libros de texto</b></figcaption>
+        <p>Los libros de texto son recursos educativos que proporcionan información estructurada y facilitan
+            el aprendizaje en áreas específicas del conocimiento.</p>
+    </figure>
+    <figure>
+        <img src="img/comic.png" alt="">
+        <figcaption><b>Cómics y mangas</b></figcaption>
+        <p>Los Cómics y mangas se basan en una narrativa gráfica presentada de forma secuencial, cuyo valor artístico
+            comenzó a
+            ser reivindicado en la década de los sesentas.</p>
+    </figure>
+    <figure>
+        <img src="img/marcapaginas.png" alt="">
+        <figcaption><b>Marcapaginas</b></figcaption>
+        <p>Señala tu prograso en tus libros favoritos con nuestros preciosos marcapáginas, contamos con diseños muy
+            variados para todo tipo de preferencias</p>
+    </figure>
+    <figure>
+        <img src="img/agenda.png" alt="">
+        <figcaption><b>Agendas</b></figcaption>
+        <p>Agendas personales para el 2024, mejora tu organización gracias a nuestras agendas tanto de 12 como de 18
+            meses</p>
+    </figure>
+    <figure>
+        <img src="img/ebook.png" alt="">
+        <figcaption><b>Ebooks</b></figcaption>
+        <p>Un eBook o libro electrónico es la versión digital de un libro que puedes leer en diferentes dispositivos.
+            Compra la versión digital de tus libros favoritos y leelos en cualquier lugar al momento.
+        </p>
+        <br>
+    </figure>
+
+    <h1 id="productos" class="secciones">Productos</h2>
         <table>
-
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/black_arts.png" alt="Producto 1" class="img_tabla"></td>
+                    <td>The Black Arts</td>
+                    <td rowspan="3">Novelas</td>
+                    <td>The Black Arts es una exploración fascinante sobre la teoría y la lógica subyacente de la magia
+                        y el
+                        ocultismo en todas sus ramas, incluyendo la
+                        brujería, los hechizos, la alquimia, los hechizos y la invocación y control de espíritu.</td>
+                    <td>19,69€</td>
+                </tr>
+                <tr>
+                    <td><img src="img/alas_sangre.png" alt="Producto 2" class="img_tabla"></td>
+                    <td>Alas de sangre</td>
+                    <td>Vuela... o muere. El nuevo fenómeno de fantasía juvenil del que todo el mundo habla. No te
+                        pierdas la primera edición con cantos tintados y acabados exclusivos. </td>
+                    <td>21,75€</td>
+                </tr>
+                <tr>
+                    <td><img src="img/pondlife.png" alt="Producto 3" class="img_tabla"></td>
+                    <td>Pondlife</td>
+                    <td>Los estanques de Hampstead Heath son pequeños oasis; fragmentos de naturaleza salvaje enclavados
+                        en el corazón del noroeste de Londres. Durante la mayor parte de su vida, Al Álvarez -poeta,
+                        crítico, novelista, escalador y jugador de póquer- ha nadado en ellos casi a diario.</td>
+                    <td>15,75€</td>
+                </tr>
+                <tr>
+                    <td><img src="img/agendas.png" alt="Producto 4" class="img_tabla"></td>
+                    <td>Agenda Productivity</td>
+                    <td rowspan="2">Accesorios</td>
+                    <td>Agenda semanal de 12 meses que cubre todo el año de enero a diciembre, intégrala en su vida
+                        diaria y aumente su productividad.</td>
+                    <td>11,99€</td>
+                </tr>
+                <tr>
+                    <td><img src="img/marcapag_pluma.png" alt="Producto 5" class="img_tabla"></td>
+                    <td>Marcapáginas Pluma</td>
+                    <td>Marcapáginas multicolor está hecho de latón, haciendo que sea un producto duro y fuerte, no es
+                        fácil de deformar o doblar y tiene una superficie lisa.</td>
+                    <td>6,98€</td>
+                </tr>
+            </tbody>
         </table>
+        <br>
 
-        <h1 id="informacion">Información</h1>
+        <h1 id="informacion" class="secciones">Información</h1>
         <form>
             <fieldset>
                 <label for="nombreApellido">Nombre y apellidos:</label>
@@ -55,48 +150,30 @@
                     <option value="">Inglés</option>
                     <option value="">Francés</option>
                 </select>
-    
+
                 <br>
                 <label for="">Categorías:</label>
-    
-                <div id="categ">
+                    <input type="checkbox" id="novelas">
+                    <label for="novelas">Novelas</label>
 
-                <input type="checkbox" id="novelas">
-                <label for="novelas">Novelas</label>
-    
-                <input type="checkbox" id="novela_negra">
-                <label for="novela_negra">Novela negra</label>
-    
-                <label for=""></label>
-                <input type="checkbox" id="historia">
-                <label for="historia">Historia</label>
-    
-                <input type="checkbox" id="romance">
-                <label for="romance">Romance</label>
-    
-                <input type="checkbox" id="fantasia">
-                <label for="fantasia">Fantasía</label>
+                    <input type="checkbox" id="libros_texto">
+                    <label for="libros_texto">Libros de texto</label>
 
-                <input type="checkbox" id="terror">
-                <label for="Terror">Terror</label>
+                    <input type="checkbox" id="accesorios">
+                    <label for="accesorios">Accesorios</label>
 
-                <input type="checkbox" id="Novela_corta">
-                <label for="Novela_corta">Novela corta</label>
+                    <br>
 
-                <input type="checkbox" id="otros">
-                <label for="otros">Otros</label>
-    
-                <br>
+                    <label for="observaciones">Preguntas u observaciones:</label>
+                    <textarea id="observaciones"></textarea>
 
-                <label for="observaciones">Preguntas u observaciones:</label>
-                <textarea id="observaciones"></textarea>
-            </div>
-    
             </fieldset>
             <button type="reset">Borrar</button>
             <button type="submit">Enviar</button>
-    
+
         </form>
-    
+        <br><br>
+
 </body>
+
 </html>
